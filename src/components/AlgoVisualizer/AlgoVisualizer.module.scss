@@ -6,22 +6,28 @@
   flex-direction: column;
 }
 
-.cards {
+.items {
   display: flex;
 }
 
-.card {
-  padding: 3rem 2rem;
-  border: 1px solid #b1b1b1;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1.6rem;
-
+.item {
   &:not(:last-child) {
     margin-right: 2rem;
   }
 
+  a:visited {
+    color: black;
+  }
+}
+
+.card {
+  padding: 3rem 2rem;
+  border: 1px solid #cbe1ff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.6rem;
+
   &:hover {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(219, 237, 255);
   }
 }
