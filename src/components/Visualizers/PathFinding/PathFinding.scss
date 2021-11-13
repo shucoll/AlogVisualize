@@ -1,12 +1,27 @@
-.pathf__container {
-  display: flex;
-  flex-direction: column;
+.pathf {
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__gridContainer {
+    align-self: center;
+  }
+
+  &__grid {
+    white-space: pre;
+  }
 }
 
-.pathf__gridContainer {
-  align-self: center;
-}
+// .pathf__container {
+//   display: flex;
+//   flex-direction: column;
+// }
 
-.pathf__grid {
-  white-space: pre;
-}
+// .pathf__gridContainer {
+//   align-self: center;
+// }
+
+// .pathf__grid {
+//   white-space: pre;
+// }

@@ -1,0 +1,20 @@
+.sort {
+  &__container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__gridContainer {
+    align-items: flex-end;
+    display: flex;
+    padding: 10px;
+  }
+
+  &__arrayBar {
+    background-color: #67b9a7;
+    border-radius: 10px 10px 0 0;
+    margin: 0.15%;
+  }
+}
