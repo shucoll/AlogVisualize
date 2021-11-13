@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/AlogVisualize/static/css/main.4200d797.chunk.css",
+    "main.js": "/AlogVisualize/static/js/main.e6158345.chunk.js",
+    "main.js.map": "/AlogVisualize/static/js/main.e6158345.chunk.js.map",
+    "runtime-main.js": "/AlogVisualize/static/js/runtime-main.693970a6.js",
+    "runtime-main.js.map": "/AlogVisualize/static/js/runtime-main.693970a6.js.map",
+    "static/js/2.bb79fdbe.chunk.js": "/AlogVisualize/static/js/2.bb79fdbe.chunk.js",
+    "static/js/2.bb79fdbe.chunk.js.map": "/AlogVisualize/static/js/2.bb79fdbe.chunk.js.map",
+    "static/js/3.9241c570.chunk.js": "/AlogVisualize/static/js/3.9241c570.chunk.js",
+    "static/js/3.9241c570.chunk.js.map": "/AlogVisualize/static/js/3.9241c570.chunk.js.map",
+    "index.html": "/AlogVisualize/index.html",
+    "static/css/main.4200d797.chunk.css.map": "/AlogVisualize/static/css/main.4200d797.chunk.css.map",
+    "static/js/2.bb79fdbe.chunk.js.LICENSE.txt": "/AlogVisualize/static/js/2.bb79fdbe.chunk.js.LICENSE.txt",
+    "static/media/github.16a9304e.svg": "/AlogVisualize/static/media/github.16a9304e.svg",
+    "static/media/information.6137846e.svg": "/AlogVisualize/static/media/information.6137846e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.693970a6.js",
+    "static/js/2.bb79fdbe.chunk.js",
+    "static/css/main.4200d797.chunk.css",
+    "static/js/main.e6158345.chunk.js"
+  ]
+}
