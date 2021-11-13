@@ -3,7 +3,7 @@ import styles from './Header.module.scss';
 import React, { useState } from 'react';
 
 import { ReactComponent as InfoSvg } from '../../../../assets/information.svg';
-import { ReactComponent as GithubSvg } from '../../../../assets/github.svg';
+// import { ReactComponent as GithubSvg } from '../../../../assets/github.svg';
 
 const Header = (props) => {
   const [algorithm, setAlgorithm] = useState(null);
@@ -70,7 +70,7 @@ const Header = (props) => {
           ></div>
         </div>
       </div>
-      <div className={styles.info__box__sourceInfo}>
+      {/* <div className={styles.info__box__sourceInfo}>
         View the source code
         <a
           href='https://github.com/shucoll/pathfinding-visualizer'
@@ -80,7 +80,7 @@ const Header = (props) => {
           {' '}
           here <GithubSvg width='15px' />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 
