@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AlogVisualize/static/css/main.4200d797.chunk.css",
-    "main.js": "/AlogVisualize/static/js/main.e6158345.chunk.js",
-    "main.js.map": "/AlogVisualize/static/js/main.e6158345.chunk.js.map",
+    "main.js": "/AlogVisualize/static/js/main.40aa8eec.chunk.js",
+    "main.js.map": "/AlogVisualize/static/js/main.40aa8eec.chunk.js.map",
     "runtime-main.js": "/AlogVisualize/static/js/runtime-main.693970a6.js",
     "runtime-main.js.map": "/AlogVisualize/static/js/runtime-main.693970a6.js.map",
     "static/js/2.bb79fdbe.chunk.js": "/AlogVisualize/static/js/2.bb79fdbe.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.693970a6.js",
     "static/js/2.bb79fdbe.chunk.js",
     "static/css/main.4200d797.chunk.css",
-    "static/js/main.e6158345.chunk.js"
+    "static/js/main.40aa8eec.chunk.js"
   ]
 }
