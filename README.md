@@ -85,5 +85,7 @@ Array in sorted form
 ## References
 
 [Medium post](https://medium.com/@prudhvi.gnv/path-finding-visualizer-using-react-from-creating-to-building-and-deploying-bd1e2bc64696)
+
 https://github.com/clementmihailescu/Pathfinding-Visualizer-Tutorial
+
 https://github.com/clementmihailescu/Sorting-Visualizer-Tutorial
