@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Algorithm Visualizer
+
+![NPM](https://img.shields.io/badge/react-17.0.1-blueviolet) ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
+
+An algorithm visualizer app, built with react to visualize sorting and pathfinding algorithms
+
+## Overview
+
+The app has a simple interface where users can perform sorting and pathfinding visualizations.
+For pathfinding, one can build walls, move around the start and end nodes, choose algorithms from the hover drop down and visualize the selected algorithm with the Visualize algorithm button. The algorithms will avoid the walls and try to reach the end node from the start node in the shortest path possible.
+Similarly for sorting, one can choose array length, particular sorting algorithm and visualizse it.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## [Live DEMO](https://shucoll.github.io/AlogVisualize/)
 
-In the project directory, you can run:
+## Installation and Usage
 
-### `yarn start`
+First clone the repo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```sh
+git clone https://github.com/shucoll/AlogVisualize
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Install the dependencies
 
-### `yarn test`
+```sh
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-### `yarn build`
+```sh
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Create a production build
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You can then deploy the app with github pages or any other hosting platform.
 
-### `yarn eject`
+## Examples
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Homepage
+![Homepage](./images/home.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### PathFinding
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Interface
+![Interface](./images/pf-interface.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Dropdown to select algorithms
+![Dropdown](./images/pf-dropdown.png)
 
-## Learn More
+Creating walls with click and drag
+![Walls](./images/pf-walls.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Visualizing the selected algorithm
+![Visualization](./images/pf-visualization.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Generated shortest path after visualization
+![Shortest Pth](./images/pf-path.png)
 
-### Code Splitting
+### Sorting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Interface
+![Interface](./images/sv-interface.png)
 
-### Analyzing the Bundle Size
+Dropdown to select algorithms
+![Dropdown](./images/sv-choose.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Change array length
+![ArrayChange](./images/sv-array-change.png)
 
-### Making a Progressive Web App
+Visualizing the selected algorithm
+![Visualization](./images/sv-sorting.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Array in sorted form
+![Sorted](./images/sv-sorted.png)
 
-### Advanced Configuration
+## References
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Medium post](https://medium.com/@prudhvi.gnv/path-finding-visualizer-using-react-from-creating-to-building-and-deploying-bd1e2bc64696)
+https://github.com/clementmihailescu/Pathfinding-Visualizer-Tutorial
+https://github.com/clementmihailescu/Sorting-Visualizer-Tutorial
